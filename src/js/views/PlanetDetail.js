@@ -63,37 +63,37 @@ export const PlanetDetail = () => {
         <hr className="col-md-7 d-flex mt-3  " />
       </div>
       <div className="row justify-content-center">
-        <div className="col-lg-1 d-flex flex-column">
-          <h4 className="text-center">Model</h4>
-          <p className="text-center">{details.properties.model}</p>
+      <div className="col-lg-1 d-flex flex-column">
+          <h4 className="text-center">Name</h4>
+          <p className="text-center">{details.properties.name}</p>
         </div>
         <div className="col-lg-1 d-flex flex-column">
-          <h4 className="text-center">Vehicle Class</h4>
-          <p className="text-center">{details.properties.vehicle_class}</p>
+          <h4 className="text-center">Diameter</h4>
+          <p className="text-center">{details.properties.diameter}</p>
         </div>
         <div className="col-lg-1 d-flex flex-column">
-          <h4 className="text-center">Manufacturer</h4>
-          <p className="text-center">{details.properties.manufacturer}</p>
+          <h4 className="text-center">Rotation Period</h4>
+          <p className="text-center">{details.properties.rotation_period}</p>
         </div>
         <div className="col-lg-1 d-flex flex-column">
-          <h4 className="text-center">Cost</h4>
-          <p className="text-center">{details.properties.cost_in_credits} Credits</p>
+          <h4 className="text-center">Gravity</h4>
+          <p className="text-center">{details.properties.gravity}</p>
         </div>
         <div className="col-lg-1 d-flex flex-column">
-          <h4 className="text-center">Crew</h4>
-          <p className="text-center">{details.properties.crew}</p>
+          <h4 className="text-center">Population</h4>
+          <p className="text-center">{details.properties.population}</p>
         </div>
         <div className="col-lg-1 d-flex flex-column">
-          <h4 className="text-center">Passengers</h4>
-          <p className="text-center">{details.properties.passengers}</p>
+          <h4 className="text-center">Climate</h4>
+          <p className="text-center">{details.properties.climate}</p>
         </div>
         <div className="col-lg-1 d-flex flex-column">
-          <h4 className="text-center">Max atmosphering speed</h4>
-          <p className="text-center">{details.properties.max_atmosphering_speed}</p>
+          <h4 className="text-center">Terrain</h4>
+          <p className="text-center">{details.properties.terrain}</p>
         </div>
         <div className="col-lg-1 d-flex flex-column">
-          <h4 className="text-center">Cargo capacity</h4>
-          <p className="text-center">{details.properties.cargo_capacity}</p>
+          <h4 className="text-center">Surface Water</h4>
+          <p className="text-center">{details.properties.surface_water}</p>
         </div>
       </div>
     </div>
